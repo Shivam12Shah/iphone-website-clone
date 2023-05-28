@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: rgb(255, 255, 255);
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+
+#nav1{
+    width: 100%;
+    height: 45px;
+    background-color: rgba(22, 22, 23, .8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#navcontent{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navcontent h5{
+    text-transform:lowercase;
+    font-weight: 300;
+    font-size: 11px;
+    letter-spacing: .3px;
+    color: #cecece;
+}
+#navcontent i{
+    color: #cecece;
+    font-size: 18px;
+}
+
+#page1{
+    width: 100%;
+    background-color: aqua;
+}
+#nav2{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#nav2 p{
+    color: black;
+    font-size: 14px;
+    font-weight: 200px;
+}
+#nav2 a{
+    color: royalblue;
+    text-decoration: none;
+    margin-left: 20px;
+}
+#center{
+    width: 100%;
+    height: 76vh;
+
+    position: relative;
+    background-image: url("https://www.apple.com/v/home/az/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg");
+    background-position: bottom;
+    background-size: cover;
+}
+
+#centertext{
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, 0);
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+#centertext h1{
+    font-size: 65px;
+    font-weight: 600;
+}
+#centertext h3{
+    font-size: 32px;
+    font-weight: 500;
+}
+#centertext h5{
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: -20px;
+
+}
+#centertext a{
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: royalblue;
+    margin-right: 20px;
+}
+#page2{
+    width: 100%;
+    background-color: aquamarine;
+    position: relative;
+}
+#centre2{
+    width: 100%;
+    height: 75vh;
+    background-image: url("https://www.apple.com/v/home/az/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_large.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+#centertext2{
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, 0);
+    align-items: center;
+    margin-top: 70px;
+    text-align: center;
+   
+}
+
+#centertext2 h1{
+    font-size: 65px;
+    font-weight: 600;
+    color: black;
+}
+
+#centertext2 h3{
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+}
+
+#centertext2 h5{
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+#centertext2 a{
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: royalblue;
+    margin-right: 20px;
+}
+#page3{
+    width: 100%;
+    position: relative;
+}
+#centre3{
+    width: 100%;
+    height: 85vh;
+    background-image: url("https://www.apple.com/v/home/az/images/heroes/apple-watch-series-8/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_large.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+#centertext3    {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, 0);
+    align-items: center;
+    margin-top: 70px;
+    text-align: center;
+   
+}
+
+#centertext3 h1{
+    font-size: 65px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+#centertext3 i{
+    text-align: center;
+    font-size: 60px;
+}
+
+#centertext3 h3{
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(142, 53, 53);
+}
+#centertext3 h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+#centertext3 h5{
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+#centertext3 a{
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: royalblue;
+    margin-right: 20px;
+}
+#page4{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#page4 #page4part1{
+    width: 49%;
+    height: 98%;
+    background-color: blue;
+    background-image: url("https://www.apple.com/v/home/az/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_medium.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+#page4 #page4part1content{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+#page4part1 i{
+    color: black;
+}
+#page4 #page4part1 h1{
+    color: black;
+    font-size: 40px;
+}
+#page4 #page4part1 h4{
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#page4 #page4part1 a{
+    color:royalblue;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+
+#page4 #page4part2{
+    width: 49%;
+    height: 98%;
+    background-color: blue;
+    background-image: url("https://www.apple.com/v/home/az/images/promos/wwdc23-announce/promo_wwdc23__b68ptht3mro2_medium.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+#page4 #page4part2content{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+#page4part2 i{
+    color: rgb(255, 255, 255);
+}
+#page4 #page4part2 h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+#page4 #page4part2 h4{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#page4 #page4part2 a{
+    color:royalblue;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 30px;
+    font-weight: 400;
+}
+#page5{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#page5 #page5part1{
+    width: 49%;
+    height: 98%;
+    background-color: blue;
+    background-image: url("	https://www.apple.com/v/home/az/images/promos/ipad/promo_ipad__fioegapg12qi_medium.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+#page5 #page5part1content{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+#page5 #page5part1 h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+#page5 #page5part1 h4{
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#page5 #page5part1 a{
+    color:royalblue;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+#page5 #page5part2{
+    width: 49%;
+    height: 98%;
+    background-color: blue;
+    background-image: url("https://www.apple.com/v/home/az/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_medium.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+#page5 #page5part2content{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+#page5 #page5part2 h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 600;
+ 
+
+}
+#page5 #page5part2 h4{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#page5 #page5part2 a{
+    color:royalblue;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#page6{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#page6 #page6part1{
+    width: 49%;
+    height: 98%;
+    background-color: blue;
+    background-image: url("	https://www.apple.com/v/home/az/images/promos/homepod/promo_homepod__f7jnolq94m2y_medium.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+#page6 #page6part1content{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#page6 #page6part1 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+#page6 #page6part1 h4{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10PX;
+}
+#page6 #page6part1 a{
+    color:royalblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+#page6 #page6part2{
+    width: 49%;
+    height: 98%;
+    background-color: blue;
+    background-image: url("https://www.apple.com/v/home/az/images/promos/apple-card/tile__cauwwcyyn9hy_medium.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+#page6 #page6part2content{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+#page6part2 i{
+    color: rgb(0, 0, 0);
+}
+#page6 #page6part2 h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 600;
+}
+#page6 #page6part2 h4{
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#page6 #page6part2 a{
+    color:royalblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+#page7{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+#slider{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    overflow:auto;
+    gap: 20px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+}
+#slider::-webkit-scrollbar{
+    display: none;
+}
+.page7slid{
+     min-width: 80%;
+     height: 75vh;
+     background-color: aqua;
+}
+#slid1{
+    background-image: url("https://is2-ssl.mzstatic.com/image/thumb/JdmLVQN99mIa15_uECg4uw/980x551.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#slid2{
+    background-image: url("https://is2-ssl.mzstatic.com/image/thumb/A_R7PS9DPKeHWxifN_JHFg/689x387.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#slid3{
+    background-image: url("https://is3-ssl.mzstatic.com/image/thumb/ageP1PYyLi7UlNiWMva32Q/689x387.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#slid4{
+    background-image: url("https://is1-ssl.mzstatic.com/image/thumb/qL-yBoKCFztx-kDyvIXlHw/689x387.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#slid5{
+    background-image: url("https://is5-ssl.mzstatic.com/image/thumb/vkV13QebT23nTZQu-DpqDg/689x387.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#dots{
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(135, 135, 135);
+    border-radius: 50%;
+}
+#footer{
+    width: 100%;
+    height: 97vh;
+    background-color: #f6f6f6;
+    margin-top: 40px;
+}
+#footer1{
+    padding: 40px 200px;
+}
+#footer1 p{
+    color: rgb(120, 120, 120);
+}
+hr{
+    width: 80%;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#footer2{
+    display: flex;
+    padding: 20px 200px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.footer2part2 h3{
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: rgb(120, 120, 120);
+}
+.footer2part2 h4{
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: rgb(120, 120, 120);
+}
+#lastp1{
+    margin-left: 200px;
+    color: rgb(120, 120, 120);
+    margin-bottom: 5px;
+}
+#lastp2{
+    margin-left: 200px;
+    color: rgb(120, 120, 120);
+}
+#footer a{
+    color: royalblue;
+}
